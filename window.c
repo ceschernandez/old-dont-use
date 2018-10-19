@@ -66,8 +66,8 @@ void _input(SDL_Event e)
 //////////////////
 void _draw()
 {
-	SDL_RenderClear(_renderer);
 	SDL_SetRenderDrawColor(_renderer, 0xFF, 0xFF, 0xFF, 0xFF);
+	SDL_RenderClear(_renderer);
 	/////////^^off limits
 
 
